@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Usuário</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <h1 class="mt-4">Editar Usuário</h1>
+            <form method="POST" action="/edit/{{ row[0] }}" class="mt-4">
+              <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-control" value="{{ row[1] }}" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="form-control" value="{{ row[2] }}" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Salvar</button>
+              <a href="/" class="btn btn-secondary">Cancelar</a>
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
