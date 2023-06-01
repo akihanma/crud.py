@@ -1,8 +1,8 @@
 <h1 align="center"> Sistema básico de cadastro </h1>
 <p align="center">
-  
+  <img src="https://github.com/akihanma/crud.py/blob/main/projetoimg/projeto.jpeg" alt="Screenshot do Sistema">
 </p>
-<p>Sistema feito em HTML, CSS e Python integrado ao banco de dados, para o estudo da linguagem e o desenvolvimento Web em Python utilizando o microframework Flask.</p>
+<p>Sistema feito em HTML, CSS e Python integrado ao banco de dados, para o estudo da linguagem e o desenvolvimento Web em Python utilizando o microframework Flask.</p> 
 
 <h1>Funcionalidades</h1>
 
